@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+
+  "name": "qrcode generator",
+  "description": "This extension generate the current URL to QRCode",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html",
+    "default_title": "URL to QRCode"
+  },
+  "permissions": [
+    "activeTab"
+  ]
+}
